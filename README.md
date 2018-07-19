@@ -22,6 +22,8 @@ gatsby develop
 ### Deploy it
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/cjimmy/gatsby-netlify-cms-blog)
 
+☝️ _What happens when you click on the button?_ It takes you to Netlify, where you have to click a few more things before anything real happens. (It clones this repo, and then deploys it using Netlify to the real internet.) But go ahead and deploy this site (assuming you have a Github account). This start is made for Netlify, so this button isn't just here as any hosting/deployment solution.
+
 ### Write a post
 CMS is located at `[YOUR_NETLIFY_SITE].netlify.com/admin/`
 
