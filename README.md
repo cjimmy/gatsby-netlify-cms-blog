@@ -42,9 +42,7 @@ Some notable structural changes:
 * **Adds fields to frontmatter** – to have an image for the blog post, add authors, and to fill out the <head> tag to make it social media friendly. (The frontmatter of a post is kinda like the meta info + head).
 * **Removes tag pages** – and instead queries for the top 3 most recent posts that share a common tag.
 
-### Setting up the CMS
-Follow the [Netlify CMS Quick Start Guide](https://www.netlifycms.org/docs/quick-start/#authentication) to set up authentication, and hosting.
-
 ### Other resources and info
 * **Gatsby documentation** (v1, not v2): <https://www.gatsbyjs.org/docs/netlify-cms/>
 * **Netlify documentation** (sans CMS): <https://www.netlify.com/blog/2016/02/24/a-step-by-step-guide-gatsby-on-netlify/>
+* **[Netlify CMS Quick Start Guide]** (https://www.netlifycms.org/docs/quick-start/#authentication)
