@@ -27,8 +27,9 @@ gatsby develop
 ☝️ _What happens when you click on the button?_ It takes you to Netlify, where you have to click a few more things before anything real happens. (It clones this repo, and then deploys it using Netlify to the real internet.) But go ahead and deploy this site (assuming you have a Github account). This start is made for Netlify, so this button isn't just here as any hosting/deployment solution.
 
 ### Login and write a post
-First, in Netlify, go to the `Identity` section and click  `Enable Identity`, allowing you to sign in to the CMS.
-The CMS editor is located at `[YOUR_NETLIFY_SITE].netlify.com/admin/` where you can now sign up for a login.
+1. In Netlify web interface, go to the `Identity` section and click  `Enable Identity`, allowing you to sign in to the CMS.
+2. In Netlify, **Settings > Identity > Services** click on `Enable Git Gateway`. This is necessary to log in to the CMS. (otherwise you'll get an error `Unexpected token < in JSON at position 0`)
+3. The CMS editor is located at `[YOUR_NETLIFY_SITE].netlify.com/admin/` where you can now sign up for a login.
 
 ## About
 This is a simple blog template based on [Gatsby](https://www.gatsbyjs.org/), and [Netlify CMS](https://www.netlifycms.org)
