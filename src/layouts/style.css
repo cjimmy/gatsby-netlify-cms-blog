@@ -1,0 +1,181 @@
+body {
+  position: relative;
+	font-family: "Georgia", "Times New Roman", Serif;
+	font-size: 16px;
+	line-height: 25px;
+  color: #323232;
+  margin: 0 auto;
+  padding: 0;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  max-width: 1440px;
+  background-color: white;
+  box-shadow: 0 0 40px rgba(0,0,0,0.1);
+}
+
+
+@media screen and (min-width: 768px) {
+  html {
+    text-rendering: optimizeLegibility;
+	}
+}
+
+a {
+	color: #9161FF;
+	text-decoration: underline;
+}
+
+a:hover, a:active {
+  text-decoration: none;
+}
+em {
+	font-style: italic;
+}
+b {
+  font-style: bold;
+}
+
+::selection {
+	background: #FFE87C;
+}
+
+ul {
+  margin-top: 0;
+  padding-left: 20px;
+}
+
+h1 {
+  font-family: Abril Fatface, Georgia, Times New Roman, slab-serif;
+  /*font-size: 40px;*/
+  font-weight: 700;
+  line-height: 70px;
+  font-size: 70px;
+  letter-spacing: -2px;
+}
+
+@media screen and (max-width: 767px) {
+  h1 {
+    font-size: 36px;
+    line-height: 39px;
+    letter-spacing: -1px;
+  }
+}
+
+h2 {
+  font-family: 'Roboto Condensed', 'Helvetica Condensed', 'Helvetica Neue', Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 32px;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+  margin-top: 45px;
+  margin-bottom: 0;
+}
+h3 {
+  font-family: 'Roboto Condensed', 'Helvetica Condensed', 'Helvetica Neue', Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+h4 {
+	font-family: Roboto, 'Helvetica Neue', Helvetica, sans-serif;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 1.5em;
+	letter-spacing: 1.4px;
+	text-transform: uppercase;
+  margin: 0;
+}
+h5 {
+  font-family: Helvetica Neue, Helvetica, Roboto, sans-serif;
+  font-weight: bold;
+  letter-spacing: -0.1px;
+}
+
+/*remove red outline in moz*/
+input:invalid {
+  box-shadow: none;
+}
+input:-moz-submit-invalid {
+  box-shadow: none;
+}
+input:-moz-ui-invalid {
+  box-shadow:none;
+}
+
+blockquote {
+  margin-left: 0;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-style: italic;
+  padding-left: 40px;
+  border-left: 3px solid #eee;
+}
+
+/* Styles for blog post */
+
+.blog-post-body > div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 50%;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+}
+
+.blog-post-body div p > img {
+  max-height: 350px;
+  margin-left: -10%;
+  width: 120%;
+  object-fit: cover;
+  align-self: center;
+  border-radius: 4px;
+}
+
+.blog-post-body h2, .blog-post-body h3{
+  align-self: flex-start;
+}
+
+.blog-post-body h2 {
+  margin-left: -10%
+}
+
+.author-head-img {
+  width: auto;
+  height: 40px;
+  margin-right: 20px;
+  user-select: none;
+  filter: drop-shadow(1px 3px 2px #eee);
+}
+
+/*aimed at social media icons on netlify CMS*/
+.social-media-icons svg {
+  width: 40px;
+}
+
+@media screen and (max-width: 767px) {
+  .blog-post-body div {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    box-sizing: border-box;
+  }
+
+  .blog-post-body p > img {
+    max-height: 100px;
+    width: 110%;
+    margin-left: -5%;
+    object-fit: cover;
+  }
+
+  .blog-post-body h2 {
+    margin-left: 0;
+  }
+}
+
+
