@@ -1,0 +1,27 @@
+backend:
+  name: git-gateway
+  branch: master
+
+media_folder: static/img
+public_folder: /img
+publish_mode: editorial_workflow
+# see https://www.netlifycms.org/docs/configuration-options/
+
+collections:
+  - name: "blog"
+    label: "Blog"
+    folder: "src/pages/"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Author", name: "author", widget: "string"}
+      - {label: "Front Image", name: "image", widget: "image", required: false}
+      - {label: "Social Media title", name: "smTitle", widget: "string", required: false}
+      - {label: "Social Media description", name: "smDescription", widget: "string", required: false}
+      - {label: "Color", name: "color", widget: "select", options: ["pink", "purple", "lightblue", "blue", "yellow", "tan", "orange"], default: "pink"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Tags", name: "tags", widget: "list"}
