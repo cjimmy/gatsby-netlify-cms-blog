@@ -24,6 +24,10 @@ const FinePrint = styled.div`
 	color: white;
 `;
 
+const StyledLink = styled.a`
+	color: white;
+`
+
 
 
 const Footer = () => {
@@ -36,9 +40,9 @@ const Footer = () => {
   			lgOffset={1} lg={4}
 			>
 				<FinePrint>
-					This is the footer. A place for a quick about + navigation.
+					This site was built with <StyledLink href="https://github.com/cjimmy/gatsby-netlify-cms-blog">a Gatsby + Netlify CMS starter</StyledLink> by @cjimmy. Please star the repo on Github if you found it useful.
 					<br/>
-					All rights reserved &copy; 
+					All rights reserved &copy;
 				</FinePrint>
 			</Col>
 

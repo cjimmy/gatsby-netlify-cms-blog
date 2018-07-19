@@ -1,5 +1,7 @@
 # Gatsby + Netlify (CMS) blog template
 
+Preview the template: [Github Pages]
+
 ### Quick start
 
 #### Download it and run it on your local machine
@@ -28,7 +30,7 @@ gatsby develop
 First, in Netlify, go to the `Identity` section and click  `Enable Identity`, allowing you to sign in to the CMS.
 The CMS editor is located at `[YOUR_NETLIFY_SITE].netlify.com/admin/` where you can now sign up for a login.
 
-### About
+## About
 This is a simple blog template based on [Gatsby](https://www.gatsbyjs.org/), and [Netlify CMS](https://www.netlifycms.org)
 
 It follows the [JAMstack architecture](https://jamstack.org) by using Git as a single source of truth, and [Netlify](https://www.netlify.com) for continuous deployment, and CDN distribution.
@@ -46,3 +48,14 @@ Some notable structural changes:
 * **Gatsby documentation** (v1, not v2): <https://www.gatsbyjs.org/docs/netlify-cms/>
 * **Netlify documentation** (sans CMS): <https://www.netlify.com/blog/2016/02/24/a-step-by-step-guide-gatsby-on-netlify/>
 * **[Netlify CMS Quick Start Guide]** (https://www.netlifycms.org/docs/quick-start/#authentication)
+
+## Advanced
+
+### Add comments
+Even though it's a static site, you can take advantage of the continuous deployment: [https://jamstack-comments.netlify.com/](https://jamstack-comments.netlify.com/)
+
+### Paginate front page
+TODO
+
+### Add a subscribe form
+Using lambdas hosted on Netlify
