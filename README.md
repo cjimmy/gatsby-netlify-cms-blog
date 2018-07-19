@@ -1,9 +1,9 @@
 # Gatsby + Netlify (CMS) blog template
 
 ### Preview the template
-Here! https://thirsty-allen-fe06d5.netlify.com/
+Here! [https://gatsby-netlify-cms-blog.netlify.com/](https://gatsby-netlify-cms-blog.netlify.com/)
 
-![preview](https://thirsty-allen-fe06d5.netlify.com/preview.png)
+![preview](https://gatsby-netlify-cms-blog.netlify.com/preview.png)
 
 ## Quick start
 
