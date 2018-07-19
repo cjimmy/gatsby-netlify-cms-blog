@@ -1,6 +1,9 @@
 # Gatsby + Netlify (CMS) blog template
 
-Preview the template: [Github Pages]
+###Preview the template
+https://laughing-mclean-008752.netlify.com/
+
+![preview](/img/preview.png)
 
 ## Quick start
 
