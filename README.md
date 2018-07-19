@@ -2,7 +2,7 @@
 
 Preview the template: [Github Pages]
 
-### Quick start
+## Quick start
 
 #### Download it and run it on your local machine
 

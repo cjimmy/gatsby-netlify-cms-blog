@@ -88,7 +88,7 @@ const RelatedPostsSection = (props) => {
 }
 
 RelatedPostsSection.propTypes = {
-  posts: PropTypes.object
+  posts: PropTypes.array
 }
 
 export default RelatedPostsSection
