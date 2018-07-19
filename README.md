@@ -51,6 +51,17 @@ Some notable structural changes:
 
 ## Advanced
 
+### Github authentication
+Netlify allows [authentication via Github](https://www.netlifycms.org/docs/authentication-backends/) rather than the Netlify identity system. To do this, you have to go into the _organization's_ settings. (Github has a lot of different Settings pages.)
+
+In there, on the side menu, you'll see a section for OAuth apps.
+* `Application name` is what will be shown to users authenticating
+* `Homepage URL` is the homepage of the app
+* `Application Description` is a description
+* `Authorization callback URL` for Netlify should be `https://api.netlify.com/auth/done` per their docs
+
+With this, you'll get `Client ID` and `Client Secret` that you'll use in the Netlify interface
+
 ### Add comments
 Even though it's a static site, you can take advantage of the continuous deployment: [https://jamstack-comments.netlify.com/](https://jamstack-comments.netlify.com/)
 
