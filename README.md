@@ -3,7 +3,7 @@
 ###Preview the template
 https://laughing-mclean-008752.netlify.com/
 
-![preview](/img/preview.png)
+![preview](https://laughing-mclean-008752.netlify.com/preview.png)
 
 ## Quick start
 
